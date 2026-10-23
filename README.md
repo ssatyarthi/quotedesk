@@ -1,84 +1,64 @@
-# QuoteDesk: Kill the Quote Spreadsheet
+# QuoteDesk
 
-Aerchain PM take-home. A buyer drafts an RFx with an AI co-pilot, five vendors reply in five
-different formats, the system reads every reply, lands them in one comparison (same lines,
-same units, same currency), shows what it isn't sure about, and lets the buyer ask questions
-in plain language all the way to an award memo.
+**Draft an RFx with AI, read whatever vendors send back, and decide the award with numbers you can trust.**
 
-**Scenario:** Sunrise Foods (fictional FMCG, plant at Manesar) re-sourcing 30 lines of
-corrugated packaging, about ₹4 crore a year. Five replies: an Excel that ignores the template,
-a letterhead PDF with a discount in the footnote, a Word doc with prices in prose and in USD,
-an angled phone photo of a rate card, and a one-line email ("₹42/kg for the 5-ply, 38 for
-the 3-ply, rest same as last year, freight extra").
+| | |
+|---|---|
+| **Live app** | _link added after deployment_ (password on request) |
+| **Walkthrough video** | _link added after recording_ |
+| **Product write-up** | _link to the deck / document_ |
 
 ---
 
-## Run it (about 10 minutes the first time)
+## The scenario
 
-1. **Install Python 3.11 or newer** from python.org. On Windows, tick **"Add python.exe to PATH"** in the installer.
-2. **Get an API key:** console.anthropic.com → Billing (add ~$10 credit) → API Keys → Create key.
-3. **Unzip** this folder anywhere.
-4. **Start it**
-   - Windows: double-click `run.bat`. The first time, it installs packages and opens `.env` in Notepad.
-     Paste your key after `ANTHROPIC_API_KEY=`, save, close, and double-click `run.bat` again.
-   - Mac: open Terminal in the folder, then `chmod +x run.sh && ./run.sh`, paste the key into `.env`, run `./run.sh` again.
-5. The app opens at http://localhost:8501.
-6. Go to **2 · Inbox → Read all responses**. It reads all five vendors in parallel (about 1–3 minutes, roughly $1).
-   Results are cached in `cache/`, so the demo is instant afterwards. Use "Re-read with AI" on a vendor
-   to show it live.
-7. Optional: measure accuracy against the answer key: `python tests/eval_extraction.py`
-   (activate the venv first: `.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on Mac).
+A sample buyer, Sunrise Foods (a fictional FMCG company with a plant at Manesar), re-sources **30 lines of corrugated packaging, about ₹4 crore a year**. Five vendors reply, none in the template:
 
-Manual install instead of the scripts: `python -m venv .venv`, activate it, `pip install -r requirements.txt`,
-copy `.env.example` to `.env` and add the key, then `streamlit run app.py`.
+| Vendor | What they sent | What makes it hard |
+|---|---|---|
+| Shree Ganesh | Excel in their own layout | Pads priced "per 100 nos"; an off-spec alternate offer |
+| Rajhans | PDF on letterhead | 27 of 30 lines; 5% discount in a footnote; expired ISO certificate |
+| GlobePack | Word doc, prices in sentences | USD; pads "per box" with no pack size |
+| Vinayak | Phone photo of a rate card, at an angle | One price smudged; sizes slightly off; fails quality |
+| Bharat (incumbent) | One-line email | "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra" |
 
-## Put it online (Streamlit Community Cloud, free)
+## What it does
 
-1. **Read the replies once locally** (step 6 above) so `cache/extractions/` holds the AI's reads.
-   They're committed with the code, so the hosted app opens instantly and costs nothing until someone re-reads.
-2. **Push to GitHub:** create a repository (private is fine) and upload this folder.
-   `.env` is excluded by `.gitignore`, so your key never goes to GitHub.
-3. Go to **share.streamlit.io** → sign in with GitHub → **Create app** → pick the repository, branch `main`,
-   main file `app.py` → under **Advanced settings** choose Python 3.12 and paste into **Secrets**:
-   ```
-   ANTHROPIC_API_KEY = "sk-ant-..."
-   APP_PASSWORD = "a-password-you-share-with-aerchain"
-   ```
-4. **Deploy.** You get a link like `https://<name>.streamlit.app`; that's the live link. The GitHub URL is
-   the "where it's hosted" link.
-5. **Protect your credit:** set a monthly spend limit in the Anthropic console (Settings → Limits).
+1. **RFx co-pilot:** the buyer describes the need in chat; it drafts lines, terms and a quality questionnaire, and won't send until unit, currency and freight are pinned down.
+2. **Reads any reply:** Excel, PDF, Word, photo or email, as sent.
+3. **One comparison:** same 30 lines, same unit, same currency, with questionnaire results and documents alongside.
+4. **Review queue:** everything the system isn't sure about, worst first, plus a drafted clarification email per vendor.
+5. **Ask the analyst:** plain-language questions answered from the data, with tables, charts and exports.
+6. **Award:** the lowest-cost split under the buyer's rules (max vendors, who may win, payment terms), and a memo for the approver.
 
-Notes for the hosted demo: everyone using the link shares the same review decisions (use
-*Review queue → Audit trail → Reset all decisions* before a demo), and the app sleeps after a few days
-without visits; opening the link wakes it in under a minute.
+## How it earns trust
 
-## The six screens
+- **AI reads, code calculates.** The model records each price exactly as written; unit, currency, discount and freight conversions are plain code, with every step shown under the number.
+- **Every number has a source.** Click any cell to see the vendor's own words, the file and the location.
+- **Unsure numbers can't decide the award.** A smudged digit, an unclear pack size or an ambiguous rule is held back until the buyer confirms it.
+- **The analyst can't make numbers up.** It answers only by querying the extracted data, and shows its queries.
 
-| Screen | What it does |
+## Results on this dataset
+
+| Measure | Result |
 |---|---|
-| 1 · Draft RFx | Chat with the co-pilot; it drafts lines from the item master, computes box weights, sets terms and a questionnaire, checks gaps, then "sends" (stubbed: `.eml` files in `outbox/`). |
-| 2 · Inbox | Each vendor's raw files exactly as received, plus what the AI read from them. |
-| 3 · Compare | 30 lines × 5 vendors in landed ₹ per RFx unit. Select a row to see, for every vendor, the verbatim source text, file location, conversion math and flags. Questionnaire results, terms and attachments below. |
-| 4 · Review queue | Everything the system wasn't sure about, worst first. Accept, dismiss, or override a price after checking with the vendor (audit trail kept). AI-drafted clarification email per vendor with open issues (sending stubbed). |
-| 5 · Ask | Natural-language analyst. Answers only by running SQL on the extracted data or the award optimizer; queries are shown under each answer. Tables, charts, Excel exports, award memo (.docx). |
-| 6 · Award | Exact lowest-cost split under the buyer's rules: max vendors (default 3), who may win (unresolved vendors included with a warning), price basis (landed or + payment terms), conditional discounts only if earned. Shows what each rule costs. |
+| Prices read exactly | 132 of 140 (the other 8 are genuine ambiguities, flagged instead of guessed) |
+| Wrong prices that could win a line | **0** |
+| Planted edge cases handled | 16 of 16 |
 
-## How it's built
+---
 
-```
-vendor files ──► ingest.py      format → model-readable content, keeps addresses (sheet!cell, page, ¶)
-             ──► extract.py     Claude reads everything; records values AS WRITTEN (vendor's unit,
-                                currency) + source + confidence. No arithmetic.
-             ──► normalize.py   code: unit basis → RFx unit, per-kg × box weight, USD × FX,
-                                discounts, freight, quality rules, cross-vendor sanity checks, flags
-             ──► store.py       DuckDB tables
-             ──► analyst.py     Claude agent with run_sql / show_table / show_chart / export / memo tools
-```
+<details>
+<summary><b>How it's built</b></summary>
 
-- `data/generate_dataset.py` builds the whole fabricated dataset; `data/_answer_key/` holds the ground
-  truth. **The app never reads the answer key.** Only `tests/eval_extraction.py` does, to score the AI.
-- `tests/fixtures.py` contains hand-made stand-ins for model output, used only to test the deterministic code.
-- Plumbing that is stubbed: email sending (writes `.eml` to `outbox/`) and receiving (vendor replies sit
-  in `data/responses/`). The AI loops (extraction, co-pilot, analyst) are real.
+- Python + Streamlit, Claude (Anthropic API), DuckDB for the analyst's queries
+- `core/extract.py`: AI extraction with source and confidence per value
+- `core/normalize.py`: conversions, quality rules, flags (no AI)
+- `core/award.py`: exact award search over vendor combinations (no AI)
+- `core/analyst.py`, `core/copilot.py`, `core/clarify.py`: the AI agents
+- `data/generate_dataset.py`: builds the fabricated dataset; `tests/eval_extraction.py` scores the AI against an answer key the app never reads
+- Email sending and receiving are stubbed (emails are written to files)
 
-See `docs/decision_note.md` for the one-page note and `docs/demo_script.md` for the walkthrough.
+Run it yourself: see [docs/SETUP.md](docs/SETUP.md).
+
+</details>
