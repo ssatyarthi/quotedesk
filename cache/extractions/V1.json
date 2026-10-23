@@ -1,0 +1,758 @@
+{
+  "vendor": {
+    "name": "Shree Ganesh Corrugators Pvt. Ltd.",
+    "contact": "Rakesh Agarwal, sales@shreeganeshcorr.example",
+    "plant_location": "Plot 118-119, RIICO Industrial Area, Bawal Road, Neemrana (Rajasthan)",
+    "quote_reference": "SGC/Q/26-27/2611 dated 16.10.2026"
+  },
+  "line_quotes": [
+    {
+      "rfx_line_id": "CB-101",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 12.87,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 380x280x220 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G9",
+        "text": "C9='CB-101' ... G9=12.87"
+      }
+    },
+    {
+      "rfx_line_id": "CB-102",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 7.26,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 300x200x150 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G10",
+        "text": "C10='CB-102' ... G10=7.26"
+      }
+    },
+    {
+      "rfx_line_id": "CB-103",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 16.12,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 450x300x250 150/120/150 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G11",
+        "text": "C11='CB-103' ... G11=16.12"
+      }
+    },
+    {
+      "rfx_line_id": "CB-104",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 5.5,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 250x180x120 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G12",
+        "text": "C12='CB-104' ... G12=5.5"
+      }
+    },
+    {
+      "rfx_line_id": "CB-105",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 16.49,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 400x300x300 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G13",
+        "text": "C13='CB-105' ... G13=16.49"
+      }
+    },
+    {
+      "rfx_line_id": "CB-106",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 11.62,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 350x250x200 150/120/150 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G14",
+        "text": "C14='CB-106' ... G14=11.62"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 19.24,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 500x350x250 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G15",
+        "text": "C15='CB-107' ... G15=19.24"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 17.89,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": true,
+      "deviation_from_spec": "BF 16 board offered instead of RFx BF 18 (same GSM 150/120/150). Lower bursting factor / lower strength.",
+      "match_note": "Alternate row directly under CB-107, labelled 'CB-107 (Alt)'. Size/print inherited from CB-107 row (not restated).",
+      "read_confidence": "high",
+      "vendor_description": "ALTERNATE OFFER for above (Ref CB-107) - BF 16 board, same GSM; remarks 'Recommended - saves cost'",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!B16:H16",
+        "text": "ALTERNATE OFFER for above (Ref CB-107) - BF 16 board, same GSM ... G16=17.89"
+      }
+    },
+    {
+      "rfx_line_id": "CB-108",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 9.31,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 320x240x180 150/120/150 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G17",
+        "text": "C17='CB-108' ... G17=9.31"
+      }
+    },
+    {
+      "rfx_line_id": "CB-109",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 7.3,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 280x200x200 150/120/150 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G18",
+        "text": "C18='CB-109' ... G18=7.3"
+      }
+    },
+    {
+      "rfx_line_id": "CB-110",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 17.39,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 3 Ply 420x320x260 150/120/150 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G19",
+        "text": "C19='CB-110' ... G19=17.39"
+      }
+    },
+    {
+      "rfx_line_id": "CB-201",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 49.45,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 500x400x350 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G20",
+        "text": "C20='CB-201' ... G20=49.45"
+      }
+    },
+    {
+      "rfx_line_id": "CB-202",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 57.07,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 600x400x400 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G21",
+        "text": "C21='CB-202' ... G21=57.07"
+      }
+    },
+    {
+      "rfx_line_id": "CB-203",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 38.57,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 450x350x300 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G22",
+        "text": "C22='CB-203' ... G22=38.57"
+      }
+    },
+    {
+      "rfx_line_id": "CB-204",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 58.18,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 550x450x350 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G23",
+        "text": "C23='CB-204' ... G23=58.18"
+      }
+    },
+    {
+      "rfx_line_id": "CB-205",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 44.81,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 400x400x400 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G24",
+        "text": "C24='CB-205' ... G24=44.81"
+      }
+    },
+    {
+      "rfx_line_id": "CB-206",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 65.03,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 600x500x300 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G25",
+        "text": "C25='CB-206' ... G25=65.03"
+      }
+    },
+    {
+      "rfx_line_id": "CB-207",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 42.39,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 480x360x320 2 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G26",
+        "text": "C26='CB-207' ... G26=42.39"
+      }
+    },
+    {
+      "rfx_line_id": "CB-208",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 54.5,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 520x420x380 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G27",
+        "text": "C27='CB-208' ... G27=54.5"
+      }
+    },
+    {
+      "rfx_line_id": "CB-209",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 58.7,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 450x450x450 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G28",
+        "text": "C28='CB-209' ... G28=58.7"
+      }
+    },
+    {
+      "rfx_line_id": "CB-210",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 67.07,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Corrugated Box 5 Ply 650x450x400 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G29",
+        "text": "C29='CB-210' ... G29=67.07"
+      }
+    },
+    {
+      "rfx_line_id": "CB-301",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 181.21,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Heavy Duty Box 7 Ply 800x600x500 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G30",
+        "text": "C30='CB-301' ... G30=181.21"
+      }
+    },
+    {
+      "rfx_line_id": "CB-302",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 306.58,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Heavy Duty Box 7 Ply 1000x800x600 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G31",
+        "text": "C31='CB-302' ... G31=306.58"
+      }
+    },
+    {
+      "rfx_line_id": "CB-303",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 470.22,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Bulk Bin 7 Ply 1200x1000x800 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G32",
+        "text": "C32='CB-303' ... G32=470.22"
+      }
+    },
+    {
+      "rfx_line_id": "DT-401",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 10.11,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Die-cut display tray 3 Ply 400x300x80 4 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G34",
+        "text": "C34='DT-401' ... G34=10.11 (section B: Rate in Rs. per Pc)"
+      }
+    },
+    {
+      "rfx_line_id": "DT-402",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 5.74,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Die-cut display tray 3 Ply 300x200x60 1 Col",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G35",
+        "text": "C35='DT-402' ... G35=5.74"
+      }
+    },
+    {
+      "rfx_line_id": "PT-501",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 603,
+      "price_currency": "INR",
+      "price_unit": "per_n_pieces",
+      "units_per_price": 100,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Unit is 'per 100 nos' (section C header and row remark). RFx unit is set; assumed 100 nos = 100 sets.",
+      "vendor_description": "Partition set 3 Ply 150/120/150 Plain, remark 'per 100 nos'",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G37,H37 (header A36)",
+        "text": "C) PARTITIONS & PADS  -  Rate in Rs. per 100 Nos. ... G37=603 | H37='per 100 nos'"
+      }
+    },
+    {
+      "rfx_line_id": "PT-502",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 1095,
+      "price_currency": "INR",
+      "price_unit": "per_n_pieces",
+      "units_per_price": 100,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Row has no unit remark; per-100 basis taken from section C header. Assumed 100 sets.",
+      "vendor_description": "Partition set 3 Ply 150/120/150 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G38 (header A36)",
+        "text": "C) PARTITIONS & PADS  -  Rate in Rs. per 100 Nos. ... G38=1095"
+      }
+    },
+    {
+      "rfx_line_id": "LP-601",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 2082,
+      "price_currency": "INR",
+      "price_unit": "per_n_pieces",
+      "units_per_price": 100,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Per-100 basis from section C header.",
+      "vendor_description": "Layer pad 1200x1000 mm 3 Ply Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G39 (header A36)",
+        "text": "C) PARTITIONS & PADS  -  Rate in Rs. per 100 Nos. ... G39=2082"
+      }
+    },
+    {
+      "rfx_line_id": "LP-602",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 1406,
+      "price_currency": "INR",
+      "price_unit": "per_n_pieces",
+      "units_per_price": 100,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Per-100 basis from section C header.",
+      "vendor_description": "Layer pad 1000x800 mm 3 Ply Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G40 (header A36)",
+        "text": "C) PARTITIONS & PADS  -  Rate in Rs. per 100 Nos. ... G40=1406"
+      }
+    },
+    {
+      "rfx_line_id": "CR-701",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 47.11,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Roll described only as '1200 W'; length (50 m) not restated.",
+      "vendor_description": "Corrugated roll 2 Ply 1200 W 150/120 Plain",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Quotation!G42 (header A41)",
+        "text": "D) ROLL  -  Rate in Rs. per Kg ... G42=47.11"
+      }
+    }
+  ],
+  "terms": {
+    "freight": "included",
+    "freight_text": "FOR Manesar, freight included; 'Freight inclusive up to Manesar.'",
+    "fx_clause_text": "",
+    "lead_time_days": 7,
+    "lead_time_text": "7 days from PO",
+    "moq_text": "1,000 pcs per size per call-off",
+    "payment_terms_days": 60,
+    "price_variation_text": "paper price variation clause +/-5% on kraft index",
+    "taxes_text": "GST extra as applicable",
+    "validity_text": "Rates valid 12 months",
+    "source": {
+      "file": "SGC_Quotation_2611.xlsx",
+      "location": "Terms!A1:B6",
+      "text": "Rates valid 12 months; paper price variation clause +/-5% on kraft index"
+    }
+  },
+  "discounts": [],
+  "questionnaire": [
+    {
+      "q_id": "Q1",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "YES - Cert No. TQ-91877, TUV, valid till 14-Feb-2028",
+      "evidence": "Certificate number and validity only stated in Compliance sheet; no certificate copy attached.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B1",
+        "text": "YES - Cert No. TQ-91877, TUV, valid till 14-Feb-2028"
+      }
+    },
+    {
+      "q_id": "Q2",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "YES. Sample report attached.",
+      "evidence": "One lab test report SGC/QC/0926/114 (CB-101 size only) attached.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B2",
+        "text": "YES. Sample report attached."
+      }
+    },
+    {
+      "q_id": "Q3",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "YES - declaration will be given with first supply",
+      "evidence": "No declaration attached; promised with first supply. Mineral-oil-free not explicitly mentioned.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B3",
+        "text": "YES - declaration will be given with first supply"
+      }
+    },
+    {
+      "q_id": "Q4",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 450,
+      "answer_text": "450 MT per month",
+      "evidence": "Vendor statement only.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B4",
+        "text": "450 MT per month"
+      }
+    },
+    {
+      "q_id": "Q5",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 7,
+      "answer_text": "7 days",
+      "evidence": "Also Terms!B5 '7 days from PO'.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B5",
+        "text": "7 days"
+      }
+    },
+    {
+      "q_id": "Q6",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "Accepted (60 days from GRN - accepted)",
+      "evidence": "Terms!B3",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B6",
+        "text": "Accepted"
+      }
+    },
+    {
+      "q_id": "Q7",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 70,
+      "answer_text": "approx 70%",
+      "evidence": "Vendor statement, approximate.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B7",
+        "text": "approx 70%"
+      }
+    },
+    {
+      "q_id": "Q8",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": null,
+      "answer_text": "Neemrana, Rajasthan (110 km from Manesar)",
+      "evidence": "Matches letterhead address Plot 118-119, RIICO Industrial Area, Bawal Road, Neemrana.",
+      "source": {
+        "file": "SGC_Quotation_2611.xlsx",
+        "location": "Compliance!B8",
+        "text": "Neemrana, Rajasthan (110 km from Manesar)"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "file": "SGC_Lab_Test_Report_Sept26.pdf",
+      "doc_type": "In-house lab test report",
+      "holder": "Shree Ganesh Corrugators - QC Laboratory",
+      "reference_no": "SGC/QC/0926/114",
+      "standard_or_scope": "Sample: 3 Ply RSC 380x280x220, 150/120/150 GSM, BF 18 (CB-101 size only)",
+      "valid_from": "2026-09-24",
+      "valid_until": "2027-03-31",
+      "key_facts": "Report dated 24-09-2026. Bursting 5.6 kg/cm2 (spec >=5.0); BCT 212 kgf (>=180); ECT 4.7 kN/m (>=4.2); Moisture 7.8% (<=9). valid_until is the instrument calibration validity ('valid till 31-Mar-2027'), not a certificate expiry. Tested by R. Saini (QC In-charge)."
+    }
+  ],
+  "things_a_buyer_should_know": [
+    "Quote includes a paper price variation clause of +/-5% on kraft index (Terms!B4), which conflicts with the RFx request for firm prices.",
+    "Rates are valid only 12 months, whereas the RFx contract period is about 18 months (FY26-27 H2 + FY27-28 H1).",
+    "ISO 9001:2015 is claimed (Cert TQ-91877, TUV, valid till 14-Feb-2028) but no certificate copy was attached; only the number and date are typed in the Compliance sheet.",
+    "Food-safe ink/adhesive declaration is not attached; vendor says it will be given 'with first supply'.",
+    "Lab report is an internal QC report for one size (CB-101, 380x280x220, 3-ply) only, with no accreditation shown. It does not cover 5-ply or 7-ply items. A COA with every lot is claimed but not evidenced beyond this sample.",
+    "Alternate offer for CB-107 uses BF 16 board (RFx BF 18) at Rs 17.89 vs Rs 19.24 for the compliant BF 18 offer. It is a lower-strength spec labelled 'Recommended - saves cost'. The main CB-107 price is the compliant one.",
+    "Section C (partitions and layer pads) is priced per 100 Nos. (Rs 603, 1095, 2082, 1406), unlike the per-piece rows above. PT-501 and PT-502 are sets in the RFx, so the 100 is taken as 100 sets. Only PT-501 has a row remark 'per 100 nos'; the others rely on the section header.",
+    "MOQ is 1,000 pcs per size per call-off; the RFx does not state this, so it may be restrictive for the 7-ply and bulk-bin items.",
+    "The CR-701 roll row gives width '1200 W' but no length. Price is per kg, as requested.",
+    "No discounts were offered. GST is extra. Freight is included (FOR Manesar).",
+    "Rate for CB-209 (5-ply 450x450x450, plain) is Rs 58.70, higher than CB-208 (Rs 54.50), which is consistent with its larger size. Several prices are given as 2-decimal INR figures without a unit in the cell. The unit comes from section headers."
+  ],
+  "_fingerprint": "0823f5fa55fd4d38",
+  "_model": "claude-sonnet-5-5",
+  "_truncated": false
+}

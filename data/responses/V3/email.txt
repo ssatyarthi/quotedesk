@@ -1,0 +1,14 @@
+From: arjun.menon@globepack.example (Arjun Menon)
+To: priya.nair@sunrisefoods.example
+Date: Mon, 19 Oct 2026 16:20 +0530
+Subject: GlobePack proposal for Sunrise Foods - SF-RFQ-2026-118
+Attachment: GlobePack_Proposal_SunriseFoods.docx
+Attachment: GlobePack_ISO_Certificate.pdf
+
+Hi Priya,
+
+Great speaking last week. Our proposal is attached along with our ISO certificate. Happy to walk you
+through the Bhiwadi buffer-stock model on a call.
+
+Best,
+Arjun

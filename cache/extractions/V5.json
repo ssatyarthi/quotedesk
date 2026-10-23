@@ -1,0 +1,716 @@
+{
+  "vendor": {
+    "name": "Bharat Corrugated",
+    "contact": "Vikram Sethi, vikram@bharatcorrugated.example",
+    "plant_location": "Sonipat (from email signature; not explicitly stated as plant location)",
+    "quote_reference": "Re: SF-RFQ-2026-118 (email dated 21 Oct 2026)"
+  },
+  "line_quotes": [
+    {
+      "rfx_line_id": "CB-101",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "For the 3-ply, the vendor wrote only '38' with no currency or unit. Currency and unit (INR/kg) are inferred from the preceding '₹42/kg'.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra."
+      }
+    },
+    {
+      "rfx_line_id": "CB-102",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg) from the preceding '₹42/kg'.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-103",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-104",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-105",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-106",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-108",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-109",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-110",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "3-ply RSC carton; covered by the '3-ply' rate rule",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply, 38 for the 3-ply, rest same as last year, freight extra.",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Unit and currency for '38' are inferred (INR/kg).",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply, 38 for the 3-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-201",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-202",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-203",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-204",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-205",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-206",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-207",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-208",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-209",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-210",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "high",
+      "match_note": "5-ply RSC carton; covered by the '5-ply' rate rule",
+      "status": "quoted",
+      "price_value": 42,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "₹42/kg for the 5-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "₹42/kg for the 5-ply"
+      }
+    },
+    {
+      "rfx_line_id": "CB-301",
+      "match_basis": "previous_contract_reference",
+      "match_confidence": "medium",
+      "match_note": "7-ply is not mentioned; assumed to fall under 'rest same as last year' (not covered by the 5-ply or 3-ply rules)",
+      "status": "quoted",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "previous_contract_reference",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "No price given; refers to last year's price.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "CB-302",
+      "match_basis": "previous_contract_reference",
+      "match_confidence": "medium",
+      "match_note": "7-ply is not mentioned; assumed to fall under 'rest same as last year'",
+      "status": "quoted",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "previous_contract_reference",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "No price given; refers to last year's price.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "CB-303",
+      "match_basis": "previous_contract_reference",
+      "match_confidence": "medium",
+      "match_note": "7-ply bulk bin is not mentioned; assumed to fall under 'rest same as last year'",
+      "status": "quoted",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "previous_contract_reference",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "No price given; refers to last year's price.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "DT-401",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "Die-cut tray made of 3-ply board. The vendor did not say whether the '3-ply' rate covers trays; it could instead fall under 'rest same as last year'. Applied the 3-ply rule with medium confidence.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (trays); the unit of '38' is inferred as INR/kg. The tray is also 4-colour printed and die-cut, which a per-kg board rate may not cover.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "DT-402",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "Die-cut tray made of 3-ply board. Scope of the 3-ply rate is ambiguous; applied with medium confidence.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (trays); the unit of '38' is inferred as INR/kg.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "PT-501",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "3-ply partition set. Scope of the 3-ply rate is ambiguous; it could fall under 'rest same as last year'. Applied with medium confidence. The RFx asks for a per-set price.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (partition sets); the price is per kg, not per set.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "PT-502",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "3-ply partition set. Scope of the 3-ply rate is ambiguous; applied with medium confidence. The RFx asks for a per-set price.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (partition sets); the price is per kg, not per set.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "LP-601",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "3-ply layer pad. Scope of the 3-ply rate is ambiguous; applied with medium confidence.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (layer pads); the unit of '38' is inferred as INR/kg.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "LP-602",
+      "match_basis": "rule_applied_to_group",
+      "match_confidence": "medium",
+      "match_note": "3-ply layer pad. Scope of the 3-ply rate is ambiguous; applied with medium confidence.",
+      "status": "quoted",
+      "price_value": 38,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "rate_rule",
+      "rate_rule_text": "38 for the 3-ply",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "Scope ambiguous (layer pads); the unit of '38' is inferred as INR/kg.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "38 for the 3-ply, rest same as last year"
+      }
+    },
+    {
+      "rfx_line_id": "CR-701",
+      "match_basis": "previous_contract_reference",
+      "match_confidence": "medium",
+      "match_note": "2-ply roll is not covered by the 3-ply or 5-ply rules; assumed to fall under 'rest same as last year'",
+      "status": "quoted",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "previous_contract_reference",
+      "is_alternate_offer": false,
+      "read_confidence": "medium",
+      "read_issue": "No price given; refers to last year's price.",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, line 1",
+        "text": "rest same as last year"
+      }
+    }
+  ],
+  "terms": {
+    "freight": "extra",
+    "freight_text": "freight extra",
+    "fx_clause_text": "",
+    "lead_time_days": null,
+    "lead_time_text": "Not stated",
+    "moq_text": "Not stated",
+    "payment_terms_days": null,
+    "price_variation_text": "Not stated. 'Rest same as last year' implies prior contract terms, which are not described.",
+    "validity_text": "Not stated",
+    "taxes_text": "Not stated (GST not mentioned)",
+    "source": {
+      "file": "email.txt",
+      "location": "email body, line 1",
+      "text": "rest same as last year, freight extra."
+    }
+  },
+  "discounts": [],
+  "questionnaire": [
+    {
+      "q_id": "Q1",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null,
+      "evidence": "No certificate attached"
+    },
+    {
+      "q_id": "Q2",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q3",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q4",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q5",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q6",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q7",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null
+    },
+    {
+      "q_id": "Q8",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": null,
+      "answer_text": "Sonipat (inferred from email signature 'Bharat Corrugated, Sonipat'; the vendor does not say this is the supplying plant)",
+      "evidence": "Email signature only",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, signature",
+        "text": "Bharat Corrugated, Sonipat"
+      }
+    }
+  ],
+  "attachments": [],
+  "things_a_buyer_should_know": [
+    "The whole quote is one email line. All prices are per kg, but the RFx asks for per-piece prices (and per set for PT-501/502). Converting needs the RFx estimated weights, and the vendor has not confirmed them.",
+    "The 3-ply rate is written as just '38', with no currency or unit. It is read as INR/kg because it follows '₹42/kg'. Confirm this with the vendor.",
+    "The scope of the '3-ply' rate is unclear. It clearly covers the 3-ply RSC cartons CB-101 to CB-110. I also applied it, at medium confidence, to the 3-ply die-cut trays (DT), partition sets (PT) and layer pads (LP). The vendor may have meant those as 'rest same as last year'. Printing, die-cutting and conversion costs are not addressed.",
+    "The 7-ply lines (CB-301 to CB-303) and the 2-ply roll (CR-701) have no price. They fall under 'rest same as last year', and the old contract price must be looked up. The 7-ply is not covered by the 5-ply rate.",
+    "Freight is extra, but the RFx asked for a delivered (FOR Manesar) price. The freight cost is not quantified, so the quote cannot be compared directly with delivered quotes.",
+    "The vendor gave no validity, GST treatment, lead time, payment terms, MOQ or price-variation clause. It also did not answer any of the questionnaire (Q1 to Q7) and attached no certificates (ISO 9001, COA, food-safety declaration).",
+    "Sonipat appears only in the email signature. It is not explicitly stated as the supplying plant location.",
+    "The rates are quoted as firm 'per kg'. Billing on actual weight could differ from the RFx estimated weights, which would make the per-piece cost uncertain."
+  ],
+  "_fingerprint": "71802f4ec94a6094",
+  "_model": "claude-sonnet-5-5",
+  "_truncated": false
+}

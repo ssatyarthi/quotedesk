@@ -1,0 +1,763 @@
+{
+  "vendor": {
+    "name": "GlobePack Solutions India Pvt Ltd",
+    "contact": "Arjun Menon, Key Account Manager, North (arjun.menon@globepack.example)",
+    "plant_location": "SIPCOT Industrial Park, Sriperumbudur, Tamil Nadu (buffer stock at Bhiwadi warehouse)",
+    "quote_reference": "GP/IN/SF/2026/044"
+  },
+  "line_quotes": [
+    {
+      "rfx_line_id": "CB-101",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions, ply, GSM, BF and print match",
+      "status": "quoted",
+      "price_value": 0.1507,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "380x280x220 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "380x280x220 mm 1 colour print at USD 0.1507"
+      }
+    },
+    {
+      "rfx_line_id": "CB-102",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.0809,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "300x200x150 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "300x200x150 mm 1 colour print at USD 0.0809"
+      }
+    },
+    {
+      "rfx_line_id": "CB-103",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.1853,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "450x300x250 mm 2 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "450x300x250 mm 2 colour print at USD 0.1853"
+      }
+    },
+    {
+      "rfx_line_id": "CB-104",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.062,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "250x180x120 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "250x180x120 mm 1 colour print at USD 0.062"
+      }
+    },
+    {
+      "rfx_line_id": "CB-105",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.1886,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "400x300x300 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "400x300x300 mm 1 colour print at USD 0.1886"
+      }
+    },
+    {
+      "rfx_line_id": "CB-106",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.1324,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "350x250x200 mm 2 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "350x250x200 mm 2 colour print at USD 0.1324"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.223,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "500x350x250 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "500x350x250 mm 1 colour print at USD 0.223"
+      }
+    },
+    {
+      "rfx_line_id": "CB-108",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.1098,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "320x240x180 mm 1 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "320x240x180 mm 1 colour print at USD 0.1098"
+      }
+    },
+    {
+      "rfx_line_id": "CB-109",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and plain print match",
+      "status": "quoted",
+      "price_value": 0.0814,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "280x200x200 mm plain",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "280x200x200 mm plain at USD 0.0814"
+      }
+    },
+    {
+      "rfx_line_id": "CB-110",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions and print match",
+      "status": "quoted",
+      "price_value": 0.1952,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "420x320x260 mm 2 colour print",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶9",
+        "text": "420x320x260 mm 2 colour print at USD 0.1952"
+      }
+    },
+    {
+      "rfx_line_id": "CB-201",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; vendor gives no per-line print, says 'printing as per your artwork'",
+      "status": "quoted",
+      "price_value": 0.5448,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "500x400x350, 180/120/150/120/180 GSM, BF 20",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "500x400x350 at USD 0.5448"
+      }
+    },
+    {
+      "rfx_line_id": "CB-202",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.6267,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "600x400x400",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "600x400x400 at USD 0.6267"
+      }
+    },
+    {
+      "rfx_line_id": "CB-203",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.4226,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "450x350x300",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "450x350x300 at USD 0.4226"
+      }
+    },
+    {
+      "rfx_line_id": "CB-204",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.618,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "550x450x350",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "550x450x350 at USD 0.618"
+      }
+    },
+    {
+      "rfx_line_id": "CB-205",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork (RFx plain)",
+      "status": "quoted",
+      "price_value": 0.5055,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "400x400x400",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "400x400x400 at USD 0.5055"
+      }
+    },
+    {
+      "rfx_line_id": "CB-206",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.6947,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "600x500x300",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "600x500x300 at USD 0.6947"
+      }
+    },
+    {
+      "rfx_line_id": "CB-207",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.4648,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "480x360x320",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "480x360x320 at USD 0.4648"
+      }
+    },
+    {
+      "rfx_line_id": "CB-208",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.5736,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "520x420x380",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "520x420x380 at USD 0.5736"
+      }
+    },
+    {
+      "rfx_line_id": "CB-209",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork (RFx plain)",
+      "status": "quoted",
+      "price_value": 0.6403,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "450x450x450",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "450x450x450 at USD 0.6403"
+      }
+    },
+    {
+      "rfx_line_id": "CB-210",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; print per artwork",
+      "status": "quoted",
+      "price_value": 0.7082,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "650x450x400",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶10",
+        "text": "650x450x400 at USD 0.7082"
+      }
+    },
+    {
+      "rfx_line_id": "CB-301",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; vendor does not restate GSM/BF for 7-ply",
+      "status": "quoted",
+      "price_value": 2.0247,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "heavy-duty 7-ply 800x600x500",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶11",
+        "text": "USD 2.0247 for 800x600x500"
+      }
+    },
+    {
+      "rfx_line_id": "CB-302",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match",
+      "status": "quoted",
+      "price_value": 3.3424,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "heavy-duty 7-ply 1000x800x600",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶11",
+        "text": "USD 3.3424 for 1000x800x600"
+      }
+    },
+    {
+      "rfx_line_id": "CB-303",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Dimensions match; vendor lists it within 'heavy-duty 7-ply range' (RFx calls it Bulk bin RSC)",
+      "status": "quoted",
+      "price_value": 5.1897,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "7-ply 1200x1000x800",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶11",
+        "text": "USD 5.1897 for 1200x1000x800 respectively"
+      }
+    },
+    {
+      "rfx_line_id": "DT-401",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Size and 4-colour match",
+      "status": "quoted",
+      "price_value": 0.1289,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "400x300x80 four-colour tray",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶12",
+        "text": "the 400x300x80 four-colour tray at USD 0.1289"
+      }
+    },
+    {
+      "rfx_line_id": "DT-402",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Size and 1-colour match",
+      "status": "quoted",
+      "price_value": 0.0691,
+      "price_currency": "USD",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "300x200x60 single-colour tray",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶12",
+        "text": "the 300x200x60 single-colour tray at USD 0.0691"
+      }
+    },
+    {
+      "rfx_line_id": "PT-501",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "12-cell partition set",
+      "status": "quoted",
+      "price_value": 0.0742,
+      "price_currency": "USD",
+      "price_unit": "per_set",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Partition set 12-cell",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶12",
+        "text": "USD 0.0742 per set (12-cell)"
+      }
+    },
+    {
+      "rfx_line_id": "PT-502",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "24-cell partition set",
+      "status": "quoted",
+      "price_value": 0.125,
+      "price_currency": "USD",
+      "price_unit": "per_set",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "Partition set 24-cell",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶12",
+        "text": "USD 0.125 per set (24-cell)"
+      }
+    },
+    {
+      "rfx_line_id": "LP-601",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Size match; priced per box, not per piece",
+      "status": "quoted",
+      "price_value": 24.51,
+      "price_currency": "USD",
+      "price_unit": "per_box_of_n",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Price is per box but number of pads per box is not stated, so the per-piece price cannot be derived.",
+      "vendor_description": "Layer pad 1200x1000 mm, per box",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶13",
+        "text": "USD 24.51 per box for 1200x1000 mm"
+      }
+    },
+    {
+      "rfx_line_id": "LP-602",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Size match; priced per box, not per piece",
+      "status": "quoted",
+      "price_value": 16.47,
+      "price_currency": "USD",
+      "price_unit": "per_box_of_n",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "read_issue": "Price is per box but number of pads per box is not stated.",
+      "vendor_description": "Layer pad 1000x800 mm, per box",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶13",
+        "text": "USD 16.47 per box for 1000x800 mm"
+      }
+    },
+    {
+      "rfx_line_id": "CR-701",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "2-ply roll 1200 mm, per kg",
+      "status": "quoted",
+      "price_value": 0.526,
+      "price_currency": "USD",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "2-ply corrugated roll (1200 mm) per kg",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶13",
+        "text": "The 2-ply corrugated roll (1200 mm) is USD 0.526 per kg."
+      }
+    }
+  ],
+  "terms": {
+    "freight": "included",
+    "freight_text": "Prices are delivered Manesar (freight and insurance included) and exclusive of GST.",
+    "fx_clause_text": "As per Group policy all prices are quoted in US Dollars and will be invoiced in INR at the RBI reference rate prevailing on the date of invoice.",
+    "lead_time_days": 21,
+    "lead_time_text": "21 days from PO for the first two call-offs, thereafter 7 days from the Bhiwadi buffer.",
+    "moq_text": "Minimum order: one full truckload (approx. 4 MT) per call-off.",
+    "payment_terms_days": 60,
+    "price_variation_text": "Validity: 6 months, after which prices are indexed to the Pulp & Paper Index (quarterly).",
+    "validity_text": "Validity: 6 months, after which prices are indexed to the Pulp & Paper Index (quarterly).",
+    "taxes_text": "Exclusive of GST.",
+    "source": {
+      "file": "GlobePack_Proposal_SunriseFoods.docx",
+      "location": "¶15",
+      "text": "Payment: 60 days from GRN accepted. Lead time: 21 days from PO for the first two call-offs, thereafter 7 days from the Bhiwadi buffer."
+    }
+  },
+  "discounts": [],
+  "questionnaire": [
+    {
+      "q_id": "Q1",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "Sriperumbudur plant is ISO 9001:2015 certified (certificate enclosed).",
+      "evidence": "GlobePack_ISO_Certificate.pdf, cert BV-IND-QMS-77120, valid 10 Mar 2025 to 09 Mar 2028, site Sriperumbudur",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶17",
+        "text": "Our Sriperumbudur plant is ISO 9001:2015, ISO 14001 and FSC-certified (certificate enclosed)."
+      }
+    },
+    {
+      "q_id": "Q2",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "All lots ship with a COA from in-house NABL-accredited lab covering BCT, bursting strength and ECT.",
+      "evidence": "Statement only; no sample COA or NABL certificate attached",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶17",
+        "text": "All lots ship with a COA from our in-house NABL-accredited lab covering BCT, bursting strength and ECT."
+      }
+    },
+    {
+      "q_id": "Q3",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "Mineral-oil-free, food-contact-compliant water-based inks and starch adhesives; declaration said to be enclosed.",
+      "evidence": "Declaration claimed as enclosed but not among files received",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶17",
+        "text": "We use only mineral-oil-free, food-contact-compliant water-based inks and starch adhesives; a declaration is enclosed."
+      }
+    },
+    {
+      "q_id": "Q4",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 1800,
+      "answer_text": "Installed capacity 1,800 MT per month across two corrugators.",
+      "evidence": "Statement only",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶17",
+        "text": "Installed capacity is 1,800 MT per month across two corrugators."
+      }
+    },
+    {
+      "q_id": "Q5",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 21,
+      "answer_text": "21 days from PO for first two call-offs, thereafter 7 days from Bhiwadi buffer.",
+      "evidence": "Proposal terms",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶15",
+        "text": "Lead time: 21 days from PO for the first two call-offs, thereafter 7 days from the Bhiwadi buffer."
+      }
+    },
+    {
+      "q_id": "Q6",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": 60,
+      "answer_text": "Payment: 60 days from GRN accepted.",
+      "evidence": "Proposal terms",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶15",
+        "text": "Payment: 60 days from GRN accepted."
+      }
+    },
+    {
+      "q_id": "Q7",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 60,
+      "answer_text": "Recycled fibre content is about 60%.",
+      "evidence": "Statement only",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶17",
+        "text": "Recycled fibre content is about 60%."
+      }
+    },
+    {
+      "q_id": "Q8",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": null,
+      "answer_text": "Sriperumbudur, Tamil Nadu (SIPCOT Industrial Park); buffer stock at Bhiwadi warehouse.",
+      "evidence": "Proposal and ISO certificate site",
+      "source": {
+        "file": "GlobePack_Proposal_SunriseFoods.docx",
+        "location": "¶6",
+        " text": "supply from its Sriperumbudur mega-plant with a dedicated buffer stock at our Bhiwadi warehouse"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "file": "GlobePack_ISO_Certificate.pdf",
+      "doc_type": "ISO 9001:2015 certificate",
+      "holder": "GlobePack Solutions India Pvt Ltd",
+      "reference_no": "BV-IND-QMS-77120",
+      "standard_or_scope": "ISO 9001:2015 Quality Management Systems; Site: SIPCOT Industrial Park, Sriperumbudur, Tamil Nadu",
+      "valid_from": "2025-03-10",
+      "valid_until": "2028-03-09",
+      "key_facts": "Certification body text reads '(fictional) Bureau Veritas-style registrar for demo purposes'. Covers Sriperumbudur site only."
+    }
+  ],
+  "things_a_buyer_should_know": [
+    "All prices are in USD (not INR) and will be invoiced in INR at the RBI reference rate on the invoice date, so the INR price is not firm and carries exchange-rate risk. The RFx asked for a firm price.",
+    "Price validity is only 6 months. After that, prices are indexed quarterly to the Pulp & Paper Index. This conflicts with the firm-price request for a 12-month contract. No index formula, cap or base is given.",
+    "Layer pads LP-601 and LP-602 are priced per box. The pack size is not stated, so the per-piece price cannot be derived without asking the vendor.",
+    "The minimum order is one full truckload (about 4 MT) per call-off. This may be high for low-volume lines such as the 7-ply bulk cartons.",
+    "The 7-day lead time applies only after the first two call-offs and relies on the Bhiwadi buffer stock. The first two call-offs take 21 days. The plant is in Sriperumbudur, Tamil Nadu, far from Manesar. Buffer stock is not covered by the quoted terms.",
+    "The proposal says a food-safety / mineral-oil-free declaration is 'enclosed'. Only the ISO certificate and the proposal were received, so the declaration is missing. ISO 14001 and FSC certification are claimed but no certificates were attached. No sample COA or NABL certificate was attached.",
+    "The ISO certificate covers the Sriperumbudur site and is dated 10 Mar 2025 to 09 Mar 2028. The certification-body line reads '(fictional) Bureau Veritas-style registrar for demo purposes', which a buyer may want to verify.",
+    "5-ply prices are listed by dimension only. The vendor says 'printing as per your artwork' and does not give per-line print specs. RFx lines CB-205 and CB-209 are plain, and the rest are 1 or 2 colour. It is unclear whether price differs by print.",
+    "The vendor says 'Unless stated otherwise, prices are per piece'. I applied this to carton, tray and pad lines (except where priced per set, per box or per kg). CB-303 is listed under the vendor's 'heavy-duty 7-ply range' while the RFx calls it a bulk bin.",
+    "The proposal does not mention the RFx's alternative description of a 12-month contract term beyond 'under a 12-month rate contract'. The proposal is dated 19 October 2026."
+  ],
+  "_fingerprint": "ee6d49d82a50405d",
+  "_model": "claude-sonnet-5-5",
+  "_truncated": false
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "vendor_id": "V1",
+    "vendor_name": "Shree Ganesh Corrugators",
+    "channel": "email + Excel",
+    "received_on": "2026-10-16",
+    "files": [
+      "SGC_Lab_Test_Report_Sept26.pdf",
+      "SGC_Quotation_2611.xlsx",
+      "email.txt"
+    ]
+  },
+  {
+    "vendor_id": "V2",
+    "vendor_name": "Rajhans Packaging Industries",
+    "channel": "email + PDF",
+    "received_on": "2026-10-18",
+    "files": [
+      "RPI_ISO9001_Certificate.pdf",
+      "Rajhans_Quotation_RPI-1187.pdf",
+      "email.txt"
+    ]
+  },
+  {
+    "vendor_id": "V3",
+    "vendor_name": "GlobePack Solutions India",
+    "channel": "email + Word",
+    "received_on": "2026-10-19",
+    "files": [
+      "GlobePack_ISO_Certificate.pdf",
+      "GlobePack_Proposal_SunriseFoods.docx",
+      "email.txt"
+    ]
+  },
+  {
+    "vendor_id": "V4",
+    "vendor_name": "Vinayak Packers",
+    "channel": "email + phone photo",
+    "received_on": "2026-10-20",
+    "files": [
+      "IMG_20261020_142233.jpg",
+      "email.txt"
+    ]
+  },
+  {
+    "vendor_id": "V5",
+    "vendor_name": "Bharat Corrugated (incumbent)",
+    "channel": "email only",
+    "received_on": "2026-10-21",
+    "files": [
+      "email.txt"
+    ]
+  }
+]

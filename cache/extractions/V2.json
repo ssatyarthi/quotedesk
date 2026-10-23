@@ -1,0 +1,712 @@
+{
+  "vendor": {
+    "name": "Rajhans Packaging Industries",
+    "contact": "M. K. Rajhans, mk@rajhanspack.example, +91 129 400 7712",
+    "plant_location": "Plot 31, Sector 24, Faridabad, Haryana 121005",
+    "quote_reference": "RPI/SF/1187/26-27"
+  },
+  "line_quotes": [
+    {
+      "rfx_line_id": "CB-101",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 11.93,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 380 x 280 x 220",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 1",
+        "text": "1 CB-101 3 ply, 150/120/150 380 x 280 x 220 11.93"
+      }
+    },
+    {
+      "rfx_line_id": "CB-102",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 6.73,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 300 x 200 x 150",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 2",
+        "text": "2 CB-102 3 ply, 150/120/150 300 x 200 x 150 6.73"
+      }
+    },
+    {
+      "rfx_line_id": "CB-103",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 15.47,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 450 x 300 x 250",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 3",
+        "text": "3 CB-103 3 ply, 150/120/150 450 x 300 x 250 15.47"
+      }
+    },
+    {
+      "rfx_line_id": "CB-104",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 5.28,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 250 x 180 x 120",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 4",
+        "text": "4 CB-104 3 ply, 150/120/150 250 x 180 x 120 5.28"
+      }
+    },
+    {
+      "rfx_line_id": "CB-105",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 15.75,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 400 x 300 x 300",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 5",
+        "text": "5 CB-105 3 ply, 150/120/150 400 x 300 x 300 15.75"
+      }
+    },
+    {
+      "rfx_line_id": "CB-106",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 10.3,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 350 x 250 x 200",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 6",
+        "text": "6 CB-106 3 ply, 150/120/150 350 x 250 x 200 10.30"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 18.0,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 500 x 350 x 250",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 7",
+        "text": "7 CB-107 3 ply, 150/120/150 500 x 350 x 250 18.00"
+      }
+    },
+    {
+      "rfx_line_id": "CB-108",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 8.94,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 320 x 240 x 180",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 8",
+        "text": "8 CB-108 3 ply, 150/120/150 320 x 240 x 180 8.94"
+      }
+    },
+    {
+      "rfx_line_id": "CB-109",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 6.64,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 280 x 200 x 200",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 9",
+        "text": "9 CB-109 3 ply, 150/120/150 280 x 200 x 200 6.64"
+      }
+    },
+    {
+      "rfx_line_id": "CB-110",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 16.05,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 420 x 320 x 260",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 10",
+        "text": "10 CB-110 3 ply, 150/120/150 420 x 320 x 260 16.05"
+      }
+    },
+    {
+      "rfx_line_id": "CB-201",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 49.98,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 500 x 400 x 350",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 11",
+        "text": "11 CB-201 5 ply, 180/120/150/120/180 500 x 400 x 350 49.98"
+      }
+    },
+    {
+      "rfx_line_id": "CB-202",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 59.39,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 600 x 400 x 400",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 12",
+        "text": "12 CB-202 5 ply, 180/120/150/120/180 600 x 400 x 400 59.39"
+      }
+    },
+    {
+      "rfx_line_id": "CB-203",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 38.31,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 450 x 350 x 300",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 13",
+        "text": "13 CB-203 5 ply, 180/120/150/120/180 450 x 350 x 300 38.31"
+      }
+    },
+    {
+      "rfx_line_id": "CB-204",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 60.55,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 550 x 450 x 350",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 14",
+        "text": "14 CB-204 5 ply, 180/120/150/120/180 550 x 450 x 350 60.55"
+      }
+    },
+    {
+      "rfx_line_id": "CB-205",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 47.48,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 400 x 400 x 400",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 15",
+        "text": "15 CB-205 5 ply, 180/120/150/120/180 400 x 400 x 400 47.48"
+      }
+    },
+    {
+      "rfx_line_id": "CB-206",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 64.15,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 600 x 500 x 300",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 16",
+        "text": "16 CB-206 5 ply, 180/120/150/120/180 600 x 500 x 300 64.15"
+      }
+    },
+    {
+      "rfx_line_id": "CB-207",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 42.92,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 480 x 360 x 320",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 17",
+        "text": "17 CB-207 5 ply, 180/120/150/120/180 480 x 360 x 320 42.92"
+      }
+    },
+    {
+      "rfx_line_id": "CB-208",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 56.22,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 520 x 420 x 380",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 18",
+        "text": "18 CB-208 5 ply, 180/120/150/120/180 520 x 420 x 380 56.22"
+      }
+    },
+    {
+      "rfx_line_id": "CB-209",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 61.11,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 450 x 450 x 450",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 19",
+        "text": "19 CB-209 5 ply, 180/120/150/120/180 450 x 450 x 450 61.11"
+      }
+    },
+    {
+      "rfx_line_id": "CB-210",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 69.59,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 ply, 180/120/150/120/180, 650 x 450 x 400",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 20",
+        "text": "20 CB-210 5 ply, 180/120/150/120/180 650 x 450 x 400 69.59"
+      }
+    },
+    {
+      "rfx_line_id": "CB-301",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 184.33,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "7 ply HD, BF 22, 800 x 600 x 500",
+      "match_note": "Vendor does not list 7-ply GSM breakup; BF 22 stated.",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 21",
+        "text": "21 CB-301 7 ply HD, BF 22 800 x 600 x 500 184.33"
+      }
+    },
+    {
+      "rfx_line_id": "DT-401",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 10.7,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 400 x 300 x 80",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 22",
+        "text": "22 DT-401 3 ply, 150/120/150 400 x 300 x 80 10.70"
+      }
+    },
+    {
+      "rfx_line_id": "DT-402",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 6.06,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 300 x 200 x 60",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 23",
+        "text": "23 DT-402 3 ply, 150/120/150 300 x 200 x 60 6.06"
+      }
+    },
+    {
+      "rfx_line_id": "PT-501",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 6.52,
+      "price_currency": "INR",
+      "price_unit": "per_set",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150 partition",
+      "match_note": "Column header says Rs./unit; footer says 'Partitions priced per set'. Cell count (12) not stated by vendor.",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 24 and terms line",
+        "text": "24 PT-501 3 ply, 150/120/150 - 6.52 ... Partitions priced per set."
+      }
+    },
+    {
+      "rfx_line_id": "PT-502",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 11.31,
+      "price_currency": "INR",
+      "price_unit": "per_set",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150 partition",
+      "match_note": "Priced per set per terms line; cell count (24) not stated by vendor.",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 25 and terms line",
+        "text": "25 PT-502 3 ply, 150/120/150 - 11.31 ... Partitions priced per set."
+      }
+    },
+    {
+      "rfx_line_id": "LP-601",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 21.46,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 1200x1000",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 26",
+        "text": "26 LP-601 3 ply, 150/120/150 1200x1000 21.46"
+      }
+    },
+    {
+      "rfx_line_id": "LP-602",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "quoted",
+      "price_value": 14.27,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 ply, 150/120/150, 1000x800",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 27",
+        "text": "27 LP-602 3 ply, 150/120/150 1000x800 14.27"
+      }
+    },
+    {
+      "rfx_line_id": "CR-701",
+      "match_basis": "item_code",
+      "match_confidence": "high",
+      "status": "regret",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "2 ply, 150/120",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, table row 28",
+        "text": "28 CR-701 2 ply, 150/120 - Regret"
+      }
+    }
+  ],
+  "terms": {
+    "freight": "included",
+    "freight_text": "Prices are ex-GST, delivered Manesar.",
+    "lead_time_days": 5,
+    "lead_time_text": "Delivery: 5 working days (questionnaire answer says '5 days')",
+    "payment_terms_days": 45,
+    "moq_text": "Not stated",
+    "price_variation_text": "Not stated; no firm-price confirmation or paper-price variation clause given.",
+    "fx_clause_text": "All prices in INR (Rs.); no foreign currency clause.",
+    "taxes_text": "Prices are ex-GST.",
+    "validity_text": "Validity of offer: 30 days (quote dated 18 October 2026).",
+    "source": {
+      "file": "Rajhans_Quotation_RPI-1187.pdf",
+      "location": "page 1, terms paragraph below table",
+      "text": "Terms: Prices are ex-GST, delivered Manesar. Payment: 45 days. Delivery: 5 working days."
+    }
+  },
+  "discounts": [
+    {
+      "description": "Special trade discount of 5% on all items, passed through credit note quarterly",
+      "pct": 5,
+      "condition_type": "order_value_threshold",
+      "condition_text": "Only if the confirmed annual order value placed on RPI exceeds Rs. 25,00,000 (Rupees twenty-five lakh); paid via quarterly credit note. Rates in table are 'list rates'.",
+      "threshold_inr": 2500000,
+      "applies_to": "all lines",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, footnote at bottom (* asterisk)",
+        "text": "A special trade discount of 5% will be extended on all items if the confirmed annual order value placed on RPI exceeds Rs. 25,00,000"
+      }
+    }
+  ],
+  "questionnaire": [
+    {
+      "q_id": "Q1",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "Yes, certified (copy enclosed)",
+      "evidence": "RPI_ISO9001_Certificate.pdf, cert no. IQC/QMS/22/4410, valid until 30 April 2026",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 1",
+        "text": "1. ISO 9001:2015 - Yes, certified (copy enclosed)"
+      }
+    },
+    {
+      "q_id": "Q2",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "In-house lab (BCT, burst, ECT), COA with each lot - Yes",
+      "evidence": "Claim only; no lab report attached",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 2",
+        "text": "2. In-house lab (BCT, burst, ECT), COA with each lot - Yes"
+      }
+    },
+    {
+      "q_id": "Q3",
+      "answered": true,
+      "answer_bool": true,
+      "answer_number": null,
+      "answer_text": "Food grade inks / adhesives - Yes, declaration on letterhead with first lot",
+      "evidence": "Declaration not attached; promised with first lot",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 3",
+        "text": "3. Food grade inks / adhesives - Yes, declaration on letterhead with first lot"
+      }
+    },
+    {
+      "q_id": "Q4",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 300,
+      "answer_text": "300 MT/month",
+      "evidence": "",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 4",
+        "text": "4. Capacity - 300 MT/month"
+      }
+    },
+    {
+      "q_id": "Q5",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 5,
+      "answer_text": "5 days (terms line says 5 working days)",
+      "evidence": "",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 5",
+        "text": "5. Lead time - 5 days"
+      }
+    },
+    {
+      "q_id": "Q6",
+      "answered": true,
+      "answer_bool": false,
+      "answer_number": 45,
+      "answer_text": "Payment - 45 days (60 days not possible)",
+      "evidence": "",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 6",
+        "text": "6. Payment - 45 days (60 days not possible)"
+      }
+    },
+    {
+      "q_id": "Q7",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 80,
+      "answer_text": "~80%",
+      "evidence": "",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 7",
+        "text": "7. Recycled content - ~80%"
+      }
+    },
+    {
+      "q_id": "Q8",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": null,
+      "answer_text": "Faridabad, Haryana",
+      "evidence": "Matches certificate address Plot 31, Sector 24, Faridabad",
+      "source": {
+        "file": "Rajhans_Quotation_RPI-1187.pdf",
+        "location": "page 1, compliance item 8",
+        "text": "8. Plant - Faridabad, Haryana"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "file": "RPI_ISO9001_Certificate.pdf",
+      "doc_type": "ISO 9001:2015 certificate",
+      "holder": "RAJHANS PACKAGING INDUSTRIES, Plot 31, Sector 24, Faridabad, Haryana",
+      "reference_no": "IQC/QMS/22/4410",
+      "standard_or_scope": "ISO 9001:2015; Manufacture and supply of corrugated boxes, sheets and rolls",
+      "valid_from": "2023-05-01",
+      "valid_until": "2026-04-30",
+      "key_facts": "Issued by Indo Quality Certifications Pvt Ltd (accreditation ref. 'on file', not shown). Date of initial registration 01 May 2023. Validity subject to annual surveillance audits."
+    }
+  ],
+  "things_a_buyer_should_know": [
+    "ISO 9001 certificate states 'Valid until: 30 April 2026', which is before the quotation date (18 October 2026). The vendor answers Q1 'Yes, certified' but the attached certificate shows an earlier expiry date. No renewal certificate was sent.",
+    "The certificate's accreditation body reference is shown only as 'on file', and the certificate number contains '22' although initial registration is dated 2023. This is noted without judgement.",
+    "5% trade discount is conditional: it applies only if the confirmed annual order value on RPI exceeds Rs. 25,00,000. It is paid via quarterly credit note, not on invoice. The table rates are described as 'list rates'. The discount is in a small-print footnote.",
+    "Vendor did not quote CB-302 (1000x800x600 7-ply) or CB-303 (1200x1000x800 bulk bin) and did not regret them. They are silently omitted. Only CB-301 was quoted among the 7-ply items.",
+    "CR-701 (corrugated roll, per kg) is an explicit regret.",
+    "Price column header is 'Rs./unit'. PT-501 and PT-502 are stated 'priced per set'. No per-kg basis is given for any line.",
+    "Vendor's spec column omits print (1/2/4 colour flexo or plain) and BF for all lines except CB-301 (BF 22). No deviation is stated, but print and BF compliance is not confirmed. Item CB-109 and CB-205 are plain in the RFx; the vendor does not mention print.",
+    "No explicit statement that prices are firm for the contract period (FY 2026-27 H2 + FY 2027-28 H1). Offer validity is only 30 days and the quote is silent on price variation.",
+    "Payment is 45 days, and the start point (invoice or GRN) is not stated. The vendor explicitly declines 60 days.",
+    "Lead time is '5 working days' in the terms line and '5 days' in the questionnaire answer.",
+    "Food-grade declaration (Q3) is not attached; it is promised 'with first lot'. No test reports are attached for Q2 (in-house lab/COA is only claimed).",
+    "Email body contains no additional terms. Quote is dated 18 October 2026 (Sunday per email header)."
+  ],
+  "_fingerprint": "d6914dea14556675",
+  "_model": "claude-sonnet-5-5",
+  "_truncated": false
+}

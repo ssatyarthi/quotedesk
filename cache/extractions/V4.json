@@ -1,0 +1,751 @@
+{
+  "vendor": {
+    "name": "Vinayak Packers",
+    "contact": "Sunil Yadav, vinayakpackers.ggn@gmail.example; phone 98110 XXXXX (masked on letterhead)",
+    "plant_location": "Khasra 211, Village Daulatabad, Gurugram (HR), about 15 km from Manesar",
+    "quote_reference": "Rate list w.e.f. 01-10-2026 (photo IMG_20261020_142233.jpg); email dated 20 Oct 2026"
+  },
+  "line_quotes": [
+    {
+      "rfx_line_id": "CB-101",
+      "match_basis": "size_and_spec",
+      "match_confidence": "medium",
+      "match_note": "Vendor size 380x280x225 vs RFx 380x280x220 mm height (5 mm difference). 3 ply, 1 Col. Spec per footnote 150/120/150 GSM BF 18.",
+      "status": "quoted",
+      "price_value": 11.08,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 380x280x225 | 1 Col | 11.08",
+      "deviation_from_spec": "Height 225 mm vs 220 mm requested",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 1",
+        "text": "3 380x280x225 1 Col 11.08"
+      }
+    },
+    {
+      "rfx_line_id": "CB-102",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 300x200x150, 1 Col",
+      "status": "quoted",
+      "price_value": 6.33,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 300x200x150 | 1 Col | 6.33",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 2",
+        "text": "3 300x200x150 1 Col 6.33"
+      }
+    },
+    {
+      "rfx_line_id": "CB-103",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 450x300x250, 2 Col",
+      "status": "quoted",
+      "price_value": 14.13,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 450x300x250 | 2 Col | 14.13",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 3",
+        "text": "3 450x300x250 2 Col 14.13"
+      }
+    },
+    {
+      "rfx_line_id": "CB-104",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 250x180x120, 1 Col",
+      "status": "quoted",
+      "price_value": 4.75,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 250x180x120 | 1 Col | 4.75",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 4",
+        "text": "3 250x180x120 1 Col 4.75"
+      }
+    },
+    {
+      "rfx_line_id": "CB-105",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 400x300x300, 1 Col",
+      "status": "quoted",
+      "price_value": 14.21,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 400x300x300 | 1 Col | 14.21",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 5",
+        "text": "3 400x300x300 1 Col 14.21"
+      }
+    },
+    {
+      "rfx_line_id": "CB-106",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 350x250x200, 2 Col",
+      "status": "quoted",
+      "price_value": 9.75,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 350x250x200 | 2 Col | 9.75",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 6",
+        "text": "3 350x250x200 2 Col 9.75"
+      }
+    },
+    {
+      "rfx_line_id": "CB-107",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 500x350x250, 1 Col",
+      "status": "quoted",
+      "price_value": 17.51,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 500x350x250 | 1 Col | 17.51",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 7",
+        "text": "3 500x350x250 1 Col 17.51"
+      }
+    },
+    {
+      "rfx_line_id": "CB-108",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 320x240x180, 1 Col",
+      "status": "quoted",
+      "price_value": 8.23,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 320x240x180 | 1 Col | 8.23",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 8",
+        "text": "3 320x240x180 1 Col 8.23"
+      }
+    },
+    {
+      "rfx_line_id": "CB-109",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 280x200x200, Plain",
+      "status": "quoted",
+      "price_value": 6.25,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 280x200x200 | Plain | 6.25",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 9",
+        "text": "3 280x200x200 Plain 6.25"
+      }
+    },
+    {
+      "rfx_line_id": "CB-110",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "3 ply, 420x320x260, 2 Col",
+      "status": "quoted",
+      "price_value": 15.11,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "3 | 420x320x260 | 2 Col | 15.11",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 10",
+        "text": "3 420x320x260 2 Col 15.11"
+      }
+    },
+    {
+      "rfx_line_id": "CB-201",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 500x400x350, 2 Col",
+      "status": "quoted",
+      "price_value": 45.67,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 500x400x350 | 2 Col | 45.67",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 11",
+        "text": "5 500x400x350 2 Col 45.67"
+      }
+    },
+    {
+      "rfx_line_id": "CB-202",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 600x400x400, 1 Col",
+      "status": "quoted",
+      "price_value": 53.93,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 600x400x400 | 1 Col | 53.93",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 12",
+        "text": "5 600x400x400 1 Col 53.93"
+      }
+    },
+    {
+      "rfx_line_id": "CB-203",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 450x350x300, 1 Col",
+      "status": "quoted",
+      "price_value": 33.83,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 450x350x300 | 1 Col | 33.83",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 13",
+        "text": "5 450x350x300 1 Col 33.83"
+      }
+    },
+    {
+      "rfx_line_id": "CB-204",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 550x450x350, 2 Col",
+      "status": "quoted",
+      "price_value": 53.17,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 550x450x350 | 2 Col | 53.17",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 14",
+        "text": "5 550x450x350 2 Col 53.17"
+      }
+    },
+    {
+      "rfx_line_id": "CB-205",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 400x400x400, Plain",
+      "status": "quoted",
+      "price_value": 42.12,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 400x400x400 | Plain | 42.12",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 15",
+        "text": "5 400x400x400 Plain 42.12"
+      }
+    },
+    {
+      "rfx_line_id": "CB-206",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 600x500x300, 1 Col. Size and print match clearly; the price is smudged.",
+      "status": "quoted",
+      "price_value": 58.2,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "low",
+      "read_issue": "A dark ink smudge covers the first digits '58' and partly the decimal point of the rate. Best reading is 58.20. The leading digits could be 38 or 56, or 58 with a different decimal. Confirm with the vendor.",
+      "vendor_description": "5 | 600x500x300 | 1 Col | 58.20 (smudged)",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 16",
+        "text": "5 600x500x300 1 Col 58.20"
+      }
+    },
+    {
+      "rfx_line_id": "CB-207",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 480x360x320, 2 Col",
+      "status": "quoted",
+      "price_value": 39.42,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 480x360x320 | 2 Col | 39.42",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 17",
+        "text": "5 480x360x320 2 Col 39.42"
+      }
+    },
+    {
+      "rfx_line_id": "CB-208",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 520x420x380, 1 Col",
+      "status": "quoted",
+      "price_value": 50.27,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 520x420x380 | 1 Col | 50.27",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 18",
+        "text": "5 520x420x380 1 Col 50.27"
+      }
+    },
+    {
+      "rfx_line_id": "CB-209",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 450x450x450, Plain",
+      "status": "quoted",
+      "price_value": 52.27,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 450x450x450 | Plain | 52.27",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 19",
+        "text": "5 450x450x450 Plain 52.27"
+      }
+    },
+    {
+      "rfx_line_id": "CB-210",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "5 ply, 650x450x400, 1 Col",
+      "status": "quoted",
+      "price_value": 61.32,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "5 | 650x450x400 | 1 Col | 61.32",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, row 20",
+        "text": "5 650x450x400 1 Col 61.32"
+      }
+    },
+    {
+      "rfx_line_id": "CB-301",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says 7 Ply rates are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "7 Ply ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "CB-302",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says 7 Ply rates are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "7 Ply ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "CB-303",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says 7 Ply rates are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "7 Ply ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "DT-401",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says die-cut trays are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "die-cut trays ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "DT-402",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says die-cut trays are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "die-cut trays ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "PT-501",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says partitions are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "partitions ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "PT-502",
+      "match_basis": "description",
+      "match_confidence": "high",
+      "match_note": "The vendor says partitions are on enquiry. No price given.",
+      "status": "on_enquiry",
+      "price_value": null,
+      "price_currency": null,
+      "price_unit": "unknown",
+      "units_per_price": null,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "partitions ... rates on enquiry",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, footnote",
+        "text": "7 Ply, die-cut trays & partitions: rates on enquiry"
+      }
+    },
+    {
+      "rfx_line_id": "LP-601",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Layer pad 3 ply 1200x1000. GSM is taken from the 3-ply footnote.",
+      "status": "quoted",
+      "price_value": 20.17,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "LAYER PADS 3 ply 1200x1000 Rs 20.17 / pc",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, below table",
+        "text": "LAYER PADS 3 ply 1200x1000 Rs 20.17 / pc"
+      }
+    },
+    {
+      "rfx_line_id": "LP-602",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "Layer pad 3 ply 1000x800. GSM is taken from the 3-ply footnote.",
+      "status": "quoted",
+      "price_value": 13.43,
+      "price_currency": "INR",
+      "price_unit": "per_piece",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "LAYER PADS 3 ply 1000x800 Rs 13.43 / pc",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, below table",
+        "text": "LAYER PADS 3 ply 1000x800 Rs 13.43 / pc"
+      }
+    },
+    {
+      "rfx_line_id": "CR-701",
+      "match_basis": "size_and_spec",
+      "match_confidence": "high",
+      "match_note": "2 ply roll 1200mm 150/120, priced per kg. The vendor does not state the 50 m length.",
+      "status": "quoted",
+      "price_value": 43.27,
+      "price_currency": "INR",
+      "price_unit": "per_kg",
+      "units_per_price": 1,
+      "price_source": "explicit",
+      "is_alternate_offer": false,
+      "read_confidence": "high",
+      "vendor_description": "ROLL 2 ply 1200mm 150/120 Rs 43.27 / kg",
+      "source": {
+        "file": "IMG_20261020_142233.jpg",
+        "location": "photo, below table",
+        "text": "ROLL 2 ply 1200mm 150/120 Rs 43.27 / kg"
+      }
+    }
+  ],
+  "terms": {
+    "freight": "not_stated",
+    "freight_text": "Not stated whether freight is included. The vendor only says 'Delivery 3 days in Gurugram/Manesar'. The RFx asks for a delivered (FOR) price.",
+    "fx_clause_text": "None. All prices are in Rs (INR).",
+    "lead_time_days": 3,
+    "lead_time_text": "Delivery 3 days in Gurugram/Manesar (photo footnote); 'delivery 3 days' (email)",
+    "moq_text": "Min order 500 pcs/size",
+    "payment_terms_days": 30,
+    "price_variation_text": "None stated. The rates are a standard list w.e.f. 01-10-2026, with no firm-price commitment for the contract period.",
+    "taxes_text": "Rates in Rs per piece, GST extra",
+    "validity_text": "No validity period stated. The rate list is effective from 01-10-2026.",
+    "source": {
+      "file": "IMG_20261020_142233.jpg",
+      "location": "photo, footer and header",
+      "text": "Delivery 3 days in Gurugram/Manesar. Payment 30 days. Min order 500 pcs/size."
+    }
+  },
+  "discounts": [],
+  "questionnaire": [
+    {
+      "q_id": "Q1",
+      "answered": true,
+      "answer_bool": false,
+      "answer_text": "Not certified. 'applied, audit in december'",
+      "evidence": "No certificate attached",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, 'for your questions'",
+        "text": "ISO - not yet, applied, audit in december"
+      }
+    },
+    {
+      "q_id": "Q2",
+      "answered": true,
+      "answer_bool": false,
+      "answer_text": "No in-house testing. Testing is done at an outside lab only when a customer asks. No COA with every lot.",
+      "evidence": "None",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "testing - we get testing done from outside lab when customer asks"
+      }
+    },
+    {
+      "q_id": "Q3",
+      "answered": true,
+      "answer_bool": null,
+      "answer_text": "Says inks are water based and food safe. Mineral-oil-free is not mentioned and no declaration is attached. Adhesives are not addressed.",
+      "evidence": "No declaration attached",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "inks - yes water based food safe"
+      }
+    },
+    {
+      "q_id": "Q4",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 45,
+      "answer_text": "around 45 ton per month",
+      "evidence": "Verbal claim only",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "capacity around 45 ton per month"
+      }
+    },
+    {
+      "q_id": "Q5",
+      "answered": true,
+      "answer_bool": null,
+      "answer_number": 3,
+      "answer_text": "3 days",
+      "evidence": "Stated in the photo footnote and the email",
+      "source": {
+        "file": "email.txt",
+        "location": "email body, first paragraph",
+        "text": "Best rates in Gurugram, delivery 3 days."
+      }
+    },
+    {
+      "q_id": "Q6",
+      "answered": true,
+      "answer_bool": false,
+      "answer_text": "Offers 30 days; 60 days 'difficult'. The vendor does not accept 60 days.",
+      "evidence": "",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "payment 30 days, 60 days difficult"
+      }
+    },
+    {
+      "q_id": "Q7",
+      "answered": false,
+      "answer_bool": null,
+      "answer_number": null,
+      "answer_text": "",
+      "evidence": "",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "(not addressed)"
+      }
+    },
+    {
+      "q_id": "Q8",
+      "answered": true,
+      "answer_bool": null,
+      "answer_text": "Daulatabad, Gurugram, about 15 km from Manesar. Letterhead: Khasra 211, Village Daulatabad, Gurugram (HR).",
+      "evidence": "Letterhead address matches",
+      "source": {
+        "file": "email.txt",
+        "location": "email body",
+        "text": "plant Daulatabad Gurugram, 15 km from Manesar"
+      }
+    }
+  ],
+  "attachments": [],
+  "things_a_buyer_should_know": [
+    "The reply is a phone photo of a standard rate list, not a formal quotation. It has no signature, quote number or validity period. A round stamp or seal is visible at the bottom, but it is empty. The phone number on the letterhead is masked (98110 XXXXX).",
+    "The CB-206 price (5-ply 600x500x300, 1 Col) is partly hidden by an ink smudge. It reads 58.20 at best. Get the vendor to confirm it in writing.",
+    "CB-101 is offered at 380x280x225 mm. The RFx asks for 380x280x220 mm. The difference is small, but it is a deviation.",
+    "All 7-ply lines (CB-301 to CB-303), the die-cut trays (DT-401, DT-402) and the partitions (PT-501, PT-502) are 'rates on enquiry'. They are not quoted.",
+    "Freight is not addressed. The RFx asks for a delivered (FOR) Manesar price, and the vendor's list does not say whether delivery is included. Prices are GST extra.",
+    "The rates come from a standard list w.e.f. 01-10-2026. There is no firm-price commitment or validity for the contract period (FY26-27 H2 to FY27-28 H1).",
+    "The vendor sets a minimum order of 500 pcs per size.",
+    "Payment is 30 days. The vendor says 60 days from GRN is 'difficult'.",
+    "ISO 9001 is not held. The vendor says it has applied and the audit is in December. No certificate is attached.",
+    "The vendor has no in-house testing (BCT, bursting strength, ECT). It uses an outside lab only on customer request, so there is no COA with every lot.",
+    "The food-safe ink claim (water based, food safe) is only a statement in the email. No declaration is attached, and mineral-oil-free and adhesives are not addressed.",
+    "The 3-ply and 5-ply specifications (150/120/150 and 180/120/150/120/180 GSM, BF 18 and BF 20) come only from the footnote. Layer pad GSM is not stated separately.",
+    "The roll is priced per kg for 2 ply 1200 mm 150/120. The 50 m length is not mentioned. Unlike the rest of the list, this price is per kg, not per piece.",
+    "Recycled fibre content (Q7) is not answered."
+  ],
+  "_fingerprint": "8c269627151508ad",
+  "_model": "claude-sonnet-5-5",
+  "_truncated": false
+}

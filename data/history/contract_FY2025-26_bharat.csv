@@ -1,0 +1,31 @@
+line_id,vendor,basis,rate,unit,price_per_uom
+CB-101,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,11.86
+CB-102,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,6.35
+CB-103,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,14.78
+CB-104,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,4.71
+CB-105,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,15.07
+CB-106,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,9.75
+CB-107,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,18.25
+CB-108,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,8.5
+CB-109,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,6.97
+CB-110,Bharat Corrugated,per kg (print incl.),36.5,INR/kg,15.4
+CB-201,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,47.88
+CB-202,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,56.64
+CB-203,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,37.0
+CB-204,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,56.64
+CB-205,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,45.52
+CB-206,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,62.24
+CB-207,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,40.6
+CB-208,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,53.32
+CB-209,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,57.48
+CB-210,Bharat Corrugated,per kg (print incl.),40.0,INR/kg,66.12
+CB-301,Bharat Corrugated,per pcs,179.24,INR/pcs,179.24
+CB-302,Bharat Corrugated,per pcs,292.49,INR/pcs,292.49
+CB-303,Bharat Corrugated,per pcs,458.82,INR/pcs,458.82
+DT-401,Bharat Corrugated,per pcs,10.03,INR/pcs,10.03
+DT-402,Bharat Corrugated,per pcs,5.58,INR/pcs,5.58
+PT-501,Bharat Corrugated,per set,6.06,INR/set,6.06
+PT-502,Bharat Corrugated,per set,10.66,INR/set,10.66
+LP-601,Bharat Corrugated,per pcs,20.72,INR/pcs,20.72
+LP-602,Bharat Corrugated,per pcs,13.97,INR/pcs,13.97
+CR-701,Bharat Corrugated,per kg,44.5,INR/kg,44.5
