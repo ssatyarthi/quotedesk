@@ -24,10 +24,13 @@ def run(llm: LLM, system: str, messages: list, tools: list, handlers: dict, max_
     for _ in range(max_steps):
         resp = llm.create(system=system, messages=messages, tools=tools, max_tokens=6000, tag=tag)
         blocks = [_clean(b) for b in resp.content if b.type in ("text", "tool_use")]
+        if not blocks:  # a silent decline: keep the history valid for the next question
+            blocks = [{"type": "text", "text": "I can't help with that request. Ask me about the quotes, vendors or the award."}]
         messages.append({"role": "assistant", "content": blocks})
         uses = [b for b in blocks if b["type"] == "tool_use"]
         if not uses:
-            return "\n".join(b["text"] for b in blocks if b["type"] == "text").strip(), trace
+            text = "\n".join(b["text"] for b in blocks if b["type"] == "text").strip()
+            return text or "I can't help with that request. Ask me about the quotes, vendors or the award.", trace
         results = []
         for u in uses:
             fn = handlers.get(u["name"])
