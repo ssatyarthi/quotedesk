@@ -85,6 +85,18 @@ Award policy (the buyer's decisions, apply them unless the buyer says otherwise)
 - If the question can't be answered from this data, say exactly what is missing."""
 
 
+def _inr_short(x):
+    try:
+        x = float(x)
+    except (TypeError, ValueError):
+        return x
+    if abs(x) >= 1e7:
+        return f"Rs {x/1e7:,.2f} Cr"
+    if abs(x) >= 1e5:
+        return f"Rs {x/1e5:,.1f} L"
+    return f"Rs {x:,.0f}"
+
+
 def _fmt_df(df, n=80):
     if df.empty:
         return "(0 rows)"
@@ -148,7 +160,9 @@ class Analyst:
                  f"{'payment-adjusted' if price_basis == 'effective' else 'landed'} prices"
                  f"{', conditional discounts applied' if apply_conditional_discounts else ''}")
         show = r["split"][["vendor_name", "quality_status", "lines", "annual_inr", "conditional_discount_applied"]]
-        self.artifacts.append(dict(kind="table", title=title, df=show, sql=f"optimize_award({max_vendors}, {eligibility}, {price_basis}, {apply_conditional_discounts})"))
+        pretty = show.assign(annual_value=show["annual_inr"].map(_inr_short)).drop(columns=["annual_inr"]).rename(
+            columns={"vendor_name": "vendor", "quality_status": "quality", "conditional_discount_applied": "discount applied"})
+        self.artifacts.append(dict(kind="table", title=title, df=pretty, sql=f"optimize_award({max_vendors}, {eligibility}, {price_basis}, {apply_conditional_discounts})"))
         summary = {k: r[k] for k in ("total_inr", "last_year_same_lines_inr", "vs_last_year_pct", "lines_covered", "lines_total",
                                       "uncovered", "warnings", "vendors_considered")}
         return json.dumps(dict(summary=summary, split=show.to_dict("records"),

@@ -429,16 +429,16 @@ elif page.startswith("3"):
     for r in d.itertuples():
         if r.status != "quoted":
             disp.loc[r.line_id, r.vcol] = {"regret": "regret", "on_enquiry": "on enquiry", "not_quoted": "— missing"}[r.status]
-            css.loc[r.line_id, r.vcol] = "color:#999;font-style:italic"
+            css.loc[r.line_id, r.vcol] = "color:#8a8a8a;font-style:italic"
             continue
         if pd.isna(r.val):
             disp.loc[r.line_id, r.vcol] = "⚠ unreadable"
-            css.loc[r.line_id, r.vcol] = "background-color:#fde2e1"
+            css.loc[r.line_id, r.vcol] = "background-color:#fde2e1;color:#7f1d1d"
             continue
         mark = {"high": "", "medium": " *", "low": " ⚠", "buyer-confirmed": " ✔"}.get(r.confidence, "")
         disp.loc[r.line_id, r.vcol] = (f"{r.val:,.2f}" if show.startswith("Landed") else inr(r.val)) + mark
         if r.confidence == "low":
-            css.loc[r.line_id, r.vcol] = "background-color:#fde2e1"
+            css.loc[r.line_id, r.vcol] = "background-color:#fde2e1;color:#7f1d1d"
         elif r.quality_status == "FAILED":
             css.loc[r.line_id, r.vcol] = "color:#9b9b9b"
     # best per line
@@ -446,7 +446,7 @@ elif page.startswith("3"):
     pool = pool[pool.quality_status.isin(award.ELIGIBILITY[elig])]
     for lid, g in pool.groupby("line_id"):
         b = g.loc[g.val.idxmin()]
-        css.loc[lid, b.vcol] += ";background-color:#d1fadf;font-weight:700"
+        css.loc[lid, b.vcol] += ";background-color:#d1fadf;color:#064e3b;font-weight:700"
     def short(r):
         if r.length_mm and not pd.isna(r.length_mm):
             pr = {"Plain": "plain", "1 colour flexo": "1C", "2 colour flexo": "2C", "4 colour flexo": "4C"}.get(r.print, r.print)
