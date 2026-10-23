@@ -60,13 +60,17 @@ def connect(tables: dict):
                        WHERE status='quoted' AND NOT is_alternate AND landed_unit_price_inr IS NOT NULL""")
     except Exception:
         pass
+    # Security: the analyst writes SQL, so after loading the tables, cut DuckDB off from the file system and
+    # network (no read_text/read_csv/glob of server files such as secrets) and lock that setting.
+    con.execute("SET enable_external_access = false")
+    con.execute("SET lock_configuration = true")
     return con
 
 
 def run_readonly(con, sql: str, limit=500):
     s = sql.strip().rstrip(";")
     head = s.lstrip("(").split(None, 1)[0].lower() if s else ""
-    if head not in ("select", "with", "describe", "show", "summarize", "pivot"):
+    if head not in ("select", "with", "describe", "show", "summarize"):
         raise ValueError("Only read-only queries (SELECT / WITH) are allowed.")
     if ";" in s:
         raise ValueError("One statement at a time.")

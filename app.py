@@ -4,6 +4,7 @@ Run:  streamlit run app.py
 """
 import json
 from datetime import datetime
+from html import escape as esc
 from pathlib import Path
 
 import pandas as pd
@@ -340,7 +341,7 @@ elif page.startswith("2"):
             q = pill(lab, cls)
         with st.container(border=True):
             a, b = st.columns([7, 2])
-            a.markdown(f"**{m['vendor_name']}** · {m['channel']} · received {m['received_on']}  {status}{q}", unsafe_allow_html=True)
+            a.markdown(f"**{esc(str(m['vendor_name']))}** · {esc(str(m['channel']))} · received {esc(str(m['received_on']))}  {status}{q}", unsafe_allow_html=True)
             if m.get("added") and b.button("Remove", key=f"rm_{vid}"):
                 import shutil
                 shutil.rmtree(config.RESPONSES / vid, ignore_errors=True)
@@ -491,14 +492,14 @@ elif page.startswith("3"):
                     st.markdown(pill(f"confidence: {r.confidence}", {"high": "qd-ok", "medium": "qd-warn", "low": "qd-bad"}.get(r.confidence, "qd-info")),
                                 unsafe_allow_html=True)
                     if r.source_text:
-                        st.markdown(f'<div class="qd-src">“{r.source_text}”<br><small>{r.source_file} · {r.source_location}</small></div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="qd-src">“{esc(str(r.source_text))}”<br><small>{esc(str(r.source_file))} · {esc(str(r.source_location))}</small></div>', unsafe_allow_html=True)
                     if r.steps:
                         st.code(r.steps, language=None, wrap_lines=True)
                     if A.value_payment_terms and pd.notna(getattr(r, "effective_unit_price_inr", None)) and abs(r.payment_adj_inr or 0) >= 0.005:
                         st.caption(f"With payment terms: {inr(r.effective_unit_price_inr, False)} ({r.payment_note})")
                     my = fl[(fl.vendor_id == vid) & ((fl.line_id == lid))] if not fl.empty else fl
                     for f in my.itertuples():
-                        st.markdown(pill(f.severity, f"qd-{f.severity}") + f" {f.message}", unsafe_allow_html=True)
+                        st.markdown(pill(f.severity, f"qd-{f.severity}") + f" {esc(str(f.message))}", unsafe_allow_html=True)
 
     st.markdown("#### Vendors: quality questionnaire and terms")
     qn = T["questionnaire"]
@@ -539,7 +540,7 @@ elif page.startswith("4"):
         lines_ = [x for x in g.line_id.dropna().unique()]
         title = f"{VNAME.get(vid, vid)} · {r0.category.replace('_', ' ')}" + (f" · {', '.join(lines_[:6])}{'…' if len(lines_) > 6 else ''}" if lines_ else "")
         with st.container(border=True):
-            st.markdown(pill(r0.severity, f"qd-{r0.severity}") + f" **{title}**" + (f"  {pill(r0.status, 'qd-info')}" if r0.status != "open" else ""),
+            st.markdown(pill(r0.severity, f"qd-{r0.severity}") + f" **{esc(title)}**" + (f"  {pill(r0.status, 'qd-info')}" if r0.status != "open" else ""),
                         unsafe_allow_html=True)
             msgs = g.message.unique()
             for m_ in msgs[:4]:
@@ -547,7 +548,7 @@ elif page.startswith("4"):
             if len(msgs) > 4:
                 st.caption(f"+ {len(msgs) - 4} similar")
             if r0.source_text:
-                st.markdown(f'<div class="qd-src">“{r0.source_text}”<br><small>{r0.source_file} · {r0.source_location}</small></div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="qd-src">“{esc(str(r0.source_text))}”<br><small>{esc(str(r0.source_file))} · {esc(str(r0.source_location))}</small></div>', unsafe_allow_html=True)
             c1, c2, c3, c4 = st.columns([3, 2, 2, 3])
             note = c1.text_input("Note", key=f"n_{key}", placeholder="e.g. confirmed on call with vendor", label_visibility="collapsed")
             if c2.button("Accept as is", key=f"a_{key}"):
